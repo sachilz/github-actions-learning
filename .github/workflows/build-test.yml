@@ -15,6 +15,7 @@ jobs:
     name: Build and Test
     runs-on: ubuntu-latest
 
+    # ✅ Job-level environment variables (Task 5)
     env:
       NODE_ENV: test
       LOG_LEVEL: debug
@@ -31,10 +32,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-          cache-dependency-path: 'sample-app/package-lock.json'
 
-      - name: Print environment
+      # ✅ Print env vars (Task 5)
+      - name: Print environment variables
         run: |
           echo "Environment: ${{ env.NODE_ENV }}"
           echo "Log Level: ${{ env.LOG_LEVEL }}"
@@ -79,13 +79,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - working-directory: ./sample-app
+      - name: Install dependencies
+        working-directory: ./sample-app
         run: npm ci
 
       - name: Run ESLint

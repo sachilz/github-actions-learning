@@ -1,4 +1,3 @@
-<<<<<<< HEAD:.github/submissions/advanced-sachintha.md
 # Task 08
 
 I implemented artifact handling in GitHub Actions by creating and uploading a build artifact in one job and downloading it in a dependent job. This helped me understand how artifacts are used to pass data between jobs and how job dependencies work in real CI pipelines.
@@ -8,18 +7,6 @@ I implemented artifact handling in GitHub Actions by creating and uploading a bu
 ![Task 8](https://github.com/sachilz/github-actions-learning/blob/working-advanced-sachintha/.github/submissions/Proof/2.png)
 
 ![Task 8](https://github.com/sachilz/github-actions-learning/blob/working-advanced-sachintha/.github/submissions/Proof/3.png)
-
-=======
-# Task 08
-
-I implemented artifact handling in GitHub Actions by creating and uploading a build artifact in one job and downloading it in a dependent job. This helped me understand how artifacts are used to pass data between jobs and how job dependencies work in real CI pipelines.
-
-![Task 8](https://github.com/sachilz/github-actions-learning/blob/working-advanced-sachintha/.github/submissions/Proof/1.png)
-
-![Task 8](https://github.com/sachilz/github-actions-learning/blob/working-advanced-sachintha/.github/submissions/Proof/2.png)
-
-![Task 8](https://github.com/sachilz/github-actions-learning/blob/working-advanced-sachintha/.github/submissions/Proof/3.png)
-
 
 <br>
 
@@ -39,4 +26,3 @@ I practiced the GitHub contribution workflow by creating a feature branch, openi
 
 
 
->>>>>>> a089eb63fb44ffc85d7e621f70a6b60d4e1148fb:.github/submissions/intermediate-sachintha.md

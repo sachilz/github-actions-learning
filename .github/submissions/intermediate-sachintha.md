@@ -8,3 +8,14 @@ I implemented artifact handling in GitHub Actions by creating and uploading a bu
 
 ![Task 8](https://github.com/sachilz/github-actions-learning/blob/working-advanced-sachintha/.github/submissions/Proof/3.png)
 
+
+<br>
+
+# Task 09
+
+I implemented conditional execution in GitHub Actions to control step execution based on the branch. The deployment step runs only when changes are pushed to the main branch and is skipped on develop. This helped me understand how to use if conditions and GitHub context variables to safely manage branch-based workflows
+
+![Task 8](https://github.com/sachilz/github-actions-learning/blob/working-advanced-sachintha/.github/submissions/Proof/4.png)
+
+# Task 10
+
